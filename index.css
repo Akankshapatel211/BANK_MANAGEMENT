@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    /* padding: 0; */
+    /* background-color: indianred; */
+    background-color: bisque;
+}
+.header {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Note{
+    margin: 30px 10px 10px 10px;
+    padding-bottom:10px; 
+    text-align:center;
+    border-style:solid;
+    border-color: red;
+    border-width:3px;
+    color:white;
+    background-color: rgb(32, 52, 93);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+button{
+    margin-top:15px;
+    margin-bottom : 12px;
+    padding : 5px 15px 5px 15px;
+    border-color: aquamarine;
+    font-weight: 900;
+    color:red;
+    cursor: pointer;
+}
+.submit{
+    text-align: center;}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table {
+    box-shadow: 6px 0px 10px 5px rgb(6, 1, 1);
+    background-color: aliceblue;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+th,
+td,
+tr {
+    padding: 40px;
+    font-size: 20px;
+}
+table,th,td{
+    border: 2px solid rgb(40, 37, 37);
+    border-collapse: collapse ;
+}
+td{
+    font-style: italic;
+    color: black;
+    font-weight: 700;
+}
+th{
+    color: rgb(246, 89, 89);
+    font-size: 20px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>BANK MANAGEMENT</title>
+</head>
+<body>
+    <h2 class="header">BANK INTEREST MANAGEMENT</h2>
+    <div class="Note">
+        <h2> Most IMPORTANT NOTE!</h2>
+        Take input of bank balances of 5 account holders as input<br><br>
+        -> If the balance >2l = add an interest of 10% and<br> deduct 0.2% maintainance charge
+        <br><br>
+        -> If the balance >1l = add an interest of 5% and <br> deduct 0.05% maintainance charge
+        <br><br>
+        -> If any balance less than or equals 1l = give 5% interest
+        <br><br>
+        * Show the updated balances *
+    </div>
+    <div class="container">
+    <table>
+        <tr>
+            <th>S.NO</th>
+            <th>Account Holder</th>
+            <th>Balance</th>
+            <th>Balance after Interest</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Ashish</td>
+            <td>
+                <input id="item1" type="text">
+            </td>
+            <td id="output1">
+            </td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Prasant</td>
+            <td>
+                <input id="item2" type="text">
+            </td>
+            <td id="output2">
+            </td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Himanshu</td>
+            <td>
+                <input id="item3" type="text">
+            </td>
+            <td id="output3">
+
+            </td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Kanishtha</td>
+            <td>
+                <input id="item4" type="text">
+            </td>
+            <td id="output4">
+           </td>
+        </tr>
+        <tr>
+        <td>05</td>
+        <td>Rahul</td>
+        <td>
+            <input id="item5" type="text">
+        </td>
+        <td id="output5">
+       
+        </td>
+        </tr>   
+</table>
+</div>
+<div class ='submit'>
+<button onclick="output()">CALCULATE</button>
+<button onclick="abc()">RESET</button>
+</div>
+<script src="index.js">
+
+    // function abc(){
+    // console.log('abc')        
+    // }
+
+</script>
+</body>
+</html>
